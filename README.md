@@ -18,7 +18,7 @@ This project demonstrates two tasks:
 
 # Features
 
-1. Classification
+## Classification
 
 Extracts name, age, location, email, phone.
 
@@ -37,7 +37,7 @@ Output: {
   "phone": "unclear"
 }
 
-2. Summarization
+## Summarization
 
 Summarizes conversations every few turns.
 
@@ -74,3 +74,4 @@ cm.add_message("assistant", "Got it! I’ll save your details.")
 cm.create_summary()
 
 print(cm.get_summaries())
+
