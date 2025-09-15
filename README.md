@@ -16,6 +16,13 @@ This project demonstrates two tasks:
 
   README
 
+# Technologies Used:
+
+- Python 3.x
+- Groq API (OpenAI-compatible)
+- JSON Schema validation
+- Standard Python libraries: json, requests
+
 # Features
 
 ## Classification
@@ -74,4 +81,5 @@ cm.add_message("assistant", "Got it! I’ll save your details.")
 cm.create_summary()
 
 print(cm.get_summaries())
+
 
